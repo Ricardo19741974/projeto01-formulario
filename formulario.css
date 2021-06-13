@@ -7,7 +7,7 @@
     color: rgb(0, 0, 0);
     margin-left: 7%;
 }
-#sub titulo{
+#subtitulo{
     font-family: sans-serif;
     color: rgb(40, 15, 80);
     margin-left: 10%;
@@ -24,3 +24,12 @@ body{
 }
 input ,select,textarea,button{
     border-radius: 1em;
+}
+
+.grupo{
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    /* color: blueviolet; */
+    background-color: gray;
+}
