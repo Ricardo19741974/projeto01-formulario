@@ -4,7 +4,7 @@
 }
 #titulo{
     font-family: sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(90, 10, 10);
     margin-left: 7%;
 }
 #subtitulo{
@@ -17,19 +17,14 @@ body{
     background-color: rgb(47, 0, 255);
     font-family: sans-serif;
     font-size: 1em;
-    color: chartreuse;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     margin-top: 10%;
     justify-content: center;
 }
 input ,select,textarea,button{
     border-radius: 1em;
 }
-
-.grupo{
-    border-color: black;
+.campo{
     border-style: solid;
-    position: absolute;
-    /* color: blueviolet; */
-    background-color: gray;
+    text-align: center;
 }
