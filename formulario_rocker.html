@@ -1,4 +1,4 @@
-<!DOCTYPE html><!-- < DOCTYPE vai dize que o tipo da versão  /> -->
+<!DOCTYPE html>
 <html lang="pt">
 
 <head>
@@ -6,105 +6,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="formulario.css">
-    <img src="teste.jpg" alt="some text" width=600 height=400><!-- < logo  /> -->
-    <title>cadastro</title>
+    <title>Formulario</title>
 </head>
 
 <body>
-    <div class="campo">
+    <div class="cabeçalho">
+
+    </div>
+    <div class="imagem">
+
+    </div>
+    <div class="cabeçalho">
         <h1 id="titulo"> "Bem Vindos a Fundação Rocker </h1>
-        <p id="sub titulo">Obrigado por acessar nossa pagina sejam todos bem vindos
+        <p id="subtitulo">Obrigado por acessar nossa pagina sejam todos bem vindos
             <br><br>
             Por favor preencha o formulario abixo para que possa atendelos
         </p>
-        <br>
     </div>
-    <form>
-        <!-- <fieldset class="grupo"> -->
-            
-            <div class="campo">
+    <br>
+    <div class="principal">
+        <div class="formulario">
+            <form>
                 <label for="nome" strong> nome</label strong>
                 <input type="text" name="nome" id="nome" required>
                 <br><br>
-                <div class="campo">
-                    <label for="Sobrenome" strong>Sobrenome</label strong>
-                    <input type="text" name="sobrenome" id="sobrenome" required>
-                    <br><br>teste
-                    <div class="campo">
-                        <label> Email</label>
-                        <input type="email" name="email" id="email">
-                        <br><br><br>
-                    </div>
-                    <label for="Escolha qual é sua necessidede na Fundação Rocker"> Escolha qual é sua necessidede na
-                        Fundação Rocker?</label>
-                    <br><br>
-                    <input type="radio" name="devweb" value="Fazer ou colaborar com uma de nossa ONgs?" checkend>Fazer
-                    ou colaborar com uma de nossa ONgs?<br>
-                    <input type="radio" name="devweb" value="Tecnologia">Tecnologia <br>
-                    <input type="radio" name="devweb" value="fazer parte da nossa Familia">fazer parte da nossa Familia
-                    <br>
-                    <br><br>
-                </div>
-                <div class="campo">
-                    <label for="Selecione sua localidade no Pais">Selecione sua localidade no Pais</label>
-                    <select id="Selecione sua localidade no Pais">
-                        <option>
-                            <section> Outros</section> =
-                        </option>
-                        <option>Sul</option>
-                        <option>Norte</option>
-                        <option>leste </option>
-                        <option>Oeste</option>
-                    </select>
-                    <br><br><br>
-                </div>
-                <!-- <fieldset class="grupo"> -->
-                    <div class="campo">
-                        <label
-                            for="selecione a area da aplicação para nossas tecnologia que voce precisa utilizar">selecione
-                            a area da aplicação para nossas tecnologia que voce precisa utilizar</label><br><br>
-                        <input type="checkbox" id="tecnologia 1" name="teconologia 1" value="industria">
-                        <label for="'tecnologia 1'">ndustria</label>
-                        <input type="checkbox" id="tecnologia 2" name="teconologia 2" value="comercio">
-                        <label for="tecnologia 2">comercio</label>
-                        <input type="checkbox" id="tecnologia 3" name="teconologia 3" value="residencial">
-                        <label for="tecnologia 3">residencial</label>
-                        <input type="checkbox" id="tecnologia 4" name="teconologia 4" value="particular">
-                        <label for="tecnologia 4">particular</label>
-                        <input type="checkbox" id="tecnologia 5" name="teconologia 5" value="privado">
-                        <label for="tecnologia 5">privado</label>
-                    </div>
-                <!-- </fieldset> -->
+                <label for="Sobrenome" strong>Sobrenome</label strong>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+                <br><br>
+                <label> Email</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="Escolha qual é sua necessidede na Fundação Rocker"> Escolha qual é sua necessidede na
+                    Fundação
+                    Rocker?</label>
+                <br><br>
+                <input type="radio" name="devweb" value="Fazer ou colaborar com uma de nossa ONgs?" checkend>Fazerou
+                colaborar
+                com uma de nossa ONgs?<br>
+                <input type="radio" name="devweb" value="Tecnologia">Tecnologia <br>
+                <input type="radio" name="devweb" value="fazer parte da nossa Familia">fazer parte da nossa Familia
+                <br>
+                <br><br>
+                <label for="Selecione sua localidade no Pais">Selecione sua localidade no Pais</label><select
+                    id="Selecione sua localidade no Pais">
+                    <option>
+                        <section> Outros</section> =
+                    </option>
+                    <option>Sul</option>
+                    <option>Norte</option>
+                    <option>leste </option>
+                    <option>Oeste</option>
+                </select>
+                <br>
+                <br><br>
+                <label for="selecione a area da aplicação para nossas tecnologia que voce precisa utilizar">selecione a
+                    area da
+                    aplicação para nossas tecnologia que voce precisa utilizar</label><br><br>
+                <input type="checkbox" id="tecnologia 1" name="teconologia 1" value="industria">
+                <label for="'tecnologia 1'">ndustria</label>
+                <input type="checkbox" id="tecnologia 2" name="teconologia 2" value="comercio">
+                <label for="tecnologia 2">comercio</label>
+                <input type="checkbox" id="tecnologia 3" name="teconologia 3" value="residencial">
+                <label for="tecnologia 3">residencial</label>
+                <input type="checkbox" id="tecnologia 4" name="teconologia 4" value="particular">
+                <label for="tecnologia 4">particular</label>
+                <input type="checkbox" id="tecnologia 5" name="teconologia 5" value="privado">
+                <label for="tecnologia 5">privado</label>
+                <br>
+                <br><br>
+                <label for="deixe aqui no box sugestões reclamações e experiencias">deixe aqui no box sugestões
+                    reclamações e
+                    experiencias </label>
+                <br>
+                <br><br>
+                <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
+                <br>
+                <label>deixe aqui no box sugestões reclamações e experiencias entraremos em contato o mais berve possivel </label>
+        </div>
+        <div class="botao">
+            <button>
+                <type="submit">"enviar"
+                    
+            </button class="botao">
+            </button>
+        </div>
 
-            </div>
-        <!-- </fieldset> -->
-        <DIV class="campo">
-            <br>
-            <label for="deixe aqui no box sugestões reclamações e experiencias">deixe aqui no box sugestões reclamações
-                e
-                experiencias </label>
-            <br><br>
-            <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
-            <br><br>
-            <label>deixe aqui no box sugestões reclamações e experiencias </label>
-            <div class="campo">
-                <button>
-                    <type="submit">"envie "
-                        <h5>"" entraremos em contato o mais berve possivel"</h5>
-                </button class="botao">
-
-
-                </button>
-            </div>
-        </DIV>
-    </form>
-
+        </form>
 </body>
 
 </html>
-
-<!-- < DOCTYPE vai dize que o tipo da versão  /> -->
-<!-- <  html lang tipo da linguagem en ingles/> -->
-<!-- <  read  parte cabeçarios /// meta são meta dados UTF-8 é para entrar na liguagem unicode /> -->
-<br><br>
-<h5>Todos diretos reservados @ Fundação Rocker </h5>
+<div class="rodape">
+    <br><br>
+    <h5>Todos diretos reservados @ Fundação Rocker </h5>
+    <br><br>
+</div>
