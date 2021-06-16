@@ -10,6 +10,7 @@
     font-family: sans-serif;
     color: rgb(7,7,7); 
     text-align: center;
+
 }
  #subtitulo{
     font-family: sans-serif;
@@ -44,15 +45,15 @@ input ,select,textarea,button,textarea{
     width: 50%; 
 }
 .titulo{
-    border-style(1,4);
+    border-style:(1,4);
     text-align: center;
 }
 .formulario{
-    border-style(1,4);
-    text-align: center;
+    border-style:(1,4);
+    text-align: inherit;
 }
 .botao{
-    border-style(1,4);
+    border-style:(1,4);
     text-align: center;
 }
 .rodape{
@@ -64,3 +65,4 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 }
+body{background-image:url(imagem.jpg);}
