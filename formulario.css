@@ -1,35 +1,68 @@
+/* body ,head direto */
+/* # titulo, subtiulo */
+/* .name DIV */
+
 *{
     margin: 0;
     padding:0;
 }
 #titulo{
     font-family: sans-serif;
-    color: rgb(0, 0, 0);
-    margin-left: 7%;
+    color: rgb(7,7,7); 
+    text-align: center;
+
 }
-#subtitulo{
+ #subtitulo{
     font-family: sans-serif;
-    color: rgb(40, 15, 80);
-    margin-left: 10%;
+    color: rgb(7,7,7);
+text-align: center;
 }
+    
 
 body{
-    background-color: rgb(47, 0, 255);
+    background-color: rgb(33, 150, 111);
     font-family: sans-serif;
     font-size: 1em;
-    color: chartreuse;
-    margin-left: 30%;
-    margin-top: 10%;
     justify-content: center;
+
+ 
 }
-input ,select,textarea,button{
+input ,select,textarea,button,textarea{
     border-radius: 1em;
 }
-
-.grupo{
-    border-color: black;
+.cabecalho{
     border-style: solid;
-    position: absolute;
-    /* color: blueviolet; */
-    background-color: gray;
+    text-align: center;
 }
+.imagem{
+    border-style: solid;
+    text-align: center;
+}
+.principal{
+    border-style: solid;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%; 
+}
+.titulo{
+    border-style:(1,4);
+    text-align: center;
+}
+.formulario{
+    border-style:(1,4);
+    text-align: inherit;
+}
+.botao{
+    border-style:(1,4);
+    text-align: center;
+}
+.rodape{
+    border-style: solid;
+    text-align: center;
+    align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+body{background-image:url(imagem.jpg);}
